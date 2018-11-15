@@ -1,0 +1,16 @@
+{
+  "name": "make-soap-call",
+  "version": "1.0.0",
+  "description": "make-soap-call",
+  "main": "makeSOAPCall.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/tests.js"
+  },
+  "author": "Balbindar Singh",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0"
+  }
+}
