@@ -1,0 +1,101 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "opencart invalid login functionality",
+    "line": 1,
+    "id": "opencart-invalid-login-functionality",
+    "tags": [],
+    "uri": "tests\\features\\featurefiles\\opencart.feature",
+    "elements": [
+      {
+        "id": "opencart-invalid-login-functionality;invalidlogin_tc1-_-to-verify-whether-user-is-able-to-see-the-error-message-while-invalid-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "InvalidLogin_tc1 _ To verify whether user is able to see the error message while invalid login",
+        "tags": [
+          {
+            "name": "@opencart",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests\\features\\support\\hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26237
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "launch the application",
+            "match": {
+              "location": "tests\\features\\step_definitions\\opencartstep.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3796
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see the title",
+            "match": {
+              "location": "tests\\features\\step_definitions\\opencartstep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user logs in with invalid credentials",
+            "match": {
+              "location": "tests\\features\\step_definitions\\opencartstep.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4612
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user should see proper error message for invalid credentials",
+            "match": {
+              "location": "tests\\features\\step_definitions\\opencartstep.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests\\features\\support\\hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

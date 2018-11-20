@@ -1,0 +1,19 @@
+F:\Assignment\OpenCartApplication_Question6>npm run e2e-test -- --env chrome --tag opencart
+
+> nightwatch-cucumber@0.0.1 e2e-test F:\Assignment\OpenCartApplication_Question6
+> nightwatch "--env" "chrome" "--tag" "opencart"
+
+Starting selenium server... started - PID:  656
+.
+ √ Element <#navbar-collapse-header > div > a.btn.btn-link.navbar-btn> was visible after 249 milliseconds.
+.
+ √ Element <body > header > nav > div > div.navbar-header > a > img> was present after 50 milliseconds.
+..
+ √ Element <#account-login > div.container > div.alert.alert-danger> was present after 45 milliseconds.
+
+ √ Testing if element <#account-login > div.container > div.alert.alert-danger> contains text: "No match for E-Mail and/or Password.".
+..
+
+1 scenario (1 passed)
+4 steps (4 passed)
+0m37.008s
